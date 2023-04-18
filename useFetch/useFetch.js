@@ -8,7 +8,6 @@ export const useFetch = (url) => {
   });
 
   const getFetch = async () => {
-
     //Este si lo comento funciona pero sirve por si volvemos a hacer la peticion el isLoading vuelva a true por lo que vovera a mostrar la pantalla de carga
     setState({
       ...state,
